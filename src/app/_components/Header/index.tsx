@@ -20,9 +20,5 @@ export async function Header() {
     // console.error(error)
   }
 
-  return (
-    <>
-      <header></header>
-    </>
-  )
+  return <header></header>
 }
