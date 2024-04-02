@@ -12,7 +12,7 @@ import { HeaderNav } from '../Nav'
 
 import classes from './index.module.scss'
 
-const LayoutHeader = ({ header }: { header: Header }) => {
+const HeaderComponent = ({ header }: { header: Header }) => {
   const pathname = usePathname()
 
   return (
@@ -32,4 +32,4 @@ const LayoutHeader = ({ header }: { header: Header }) => {
   )
 }
 
-export default LayoutHeader
+export default HeaderComponent
