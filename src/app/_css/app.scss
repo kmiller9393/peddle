@@ -49,6 +49,7 @@ body {
   margin: 0;
   padding: 0;
   color: var(--color-dark-500);
+
   display: flex;
   flex-flow: column;
 }
@@ -110,6 +111,7 @@ ol {
 
 a {
   color: var(--color-dark-500);
+  text-decoration: none;
 
   &:focus {
     opacity: .8;
